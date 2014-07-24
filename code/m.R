@@ -4,7 +4,7 @@
 #     (2) Z'(Y-X*theta)>=0
 
 source('header.R')
-
-make.data()
+# makeData()
 my.vars<-load.variables()
-get.largest.theta(my.vars$X, my.vars$Y, my.vars$Z) %>% print()
+get.largest.theta(X=my.vars$X, Y=my.vars$Y, Z=my.vars$Z) %>% 
+  easy.save('solution.txt')

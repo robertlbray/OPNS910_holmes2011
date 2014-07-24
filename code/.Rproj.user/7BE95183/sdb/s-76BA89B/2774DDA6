@@ -1,0 +1,16 @@
+{
+    "contents" : "varSave<-'../variables/'\nex.mods<-'modules/'\nlibrary('plyr')\nlibrary('reshape2')\nlibrary('dplyr')\nl_ply(dir(ex.mods), function(l) source(paste(ex.mods, l, sep=\"\")))\n",
+    "created" : 1406181774778.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "227281866",
+    "id" : "2774DDA6",
+    "lastKnownWriteTime" : 1406182421,
+    "path" : "~/Dropbox/teaching/OPNS910/solutions/OPNS910_holmes2011/code/header.R",
+    "project_path" : "header.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

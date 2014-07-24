@@ -1,0 +1,17 @@
+{
+    "contents" : "makeData<-function(){\n  K=10; T=400; J=4*K\n  X<-matrix(rnorm(K*T), T)\n  X[1:(K+2),]<-abs(X[1:(K+2),])\n  Z<-matrix(rlnorm(J*T), T)\n  Z[(K+2):nrow(Z), 1:(K+2)]<-0\n  theta<-rlnorm(K)\n  Y<-X%*%theta+rlnorm(T, meanlog = -4, sdlog = 2)\n  easy.save(X, 'Xmat.R')\n  easy.save(Y, 'Ymat.R')\n  easy.save(Z, 'Zmat.R')\n}",
+    "created" : 1406176600184.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1291824121",
+    "id" : "C7B62844",
+    "lastKnownWriteTime" : 1406176664,
+    "path" : "~/Dropbox/teaching/OPNS910/solutions/OPNS910_holmes2011/code/modules/makeData.R",
+    "project_path" : "modules/makeData.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

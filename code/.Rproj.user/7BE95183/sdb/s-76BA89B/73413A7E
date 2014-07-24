@@ -1,16 +1,15 @@
 {
     "contents" : "load.variables<-function(){\n  list(\n    X=easy.load('Xmat.R'), \n    Y=easy.load('Ymat.R'),\n    Z=easy.load('Zmat.R')\n  )  \n}",
-    "created" : 1405653730403.000,
+    "created" : 1406182469453.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "1076062133",
-    "id" : "F8FAEE65",
+    "id" : "73413A7E",
     "lastKnownWriteTime" : 1405654284,
-    "path" : "~/Dropbox/teaching/empiricalInventory/holmes2011/code/modules/loadVars.R",
+    "path" : "~/Dropbox/teaching/OPNS910/solutions/OPNS910_holmes2011/code/modules/loadVars.R",
     "project_path" : "modules/loadVars.R",
     "properties" : {
-        "tempName" : "Untitled1"
     },
     "source_on_save" : false,
     "type" : "r_source"

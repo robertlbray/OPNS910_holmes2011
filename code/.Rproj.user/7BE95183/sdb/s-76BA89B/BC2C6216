@@ -1,0 +1,16 @@
+{
+    "contents" : "#Coding assignment based on the moment inequalities estimator of Holmes (2011, p. 277)\n#Element by element, find the largest theta that satesfy:\n#     (1) theta>=0\n#     (2) Z'(Y-X*theta)>=0\n\nsource('header.R')\n# makeData()\nmy.vars<-load.variables()\nget.largest.theta(X=my.vars$X, Y=my.vars$Y, Z=my.vars$Z) %>% \n  easy.save('solution.txt')\n",
+    "created" : 1406176630080.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "374068170",
+    "id" : "BC2C6216",
+    "lastKnownWriteTime" : 1406183280,
+    "path" : "~/Dropbox/teaching/OPNS910/solutions/OPNS910_holmes2011/code/m.R",
+    "project_path" : "m.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
